@@ -1,6 +1,5 @@
 
-function takeANumber(katzDeli, name) {
-  katzDeli.push(name)
+function takeANumber(katzDeli) {
   var place = katzDeli.length
     //var msg = ("Welcome, $[name].  You are number $[place] in line.")
     var msg = ("Welcome, " + name + ". You are number " + place + " in line.")
@@ -9,7 +8,6 @@ function takeANumber(katzDeli, name) {
 }
 
 function nowServing(katzDeliLine) {
-  var lineNameandNumber = []
     if (!katzDeliLine.length) {
       console.log("There is nobody waiting to be served!")
         return "There is nobody waiting to be served!"
