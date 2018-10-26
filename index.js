@@ -42,5 +42,4 @@ return 'The line is currently: ' + inline.join(',');
   if (!katzDeliLine.length) {
     return "The line is currently empty"
   }
->>>>>>> cc789247fc905d7a7915087be4c9209479d09bb9
 }
