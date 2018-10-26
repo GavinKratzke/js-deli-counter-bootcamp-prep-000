@@ -19,7 +19,6 @@ if (!katzDeliLine.length) {
 }
 
 function currentLine(katzDeliLine) {
-<<<<<<< HEAD
   var inline = []
 
   if (!katzDeliLine.length) {
