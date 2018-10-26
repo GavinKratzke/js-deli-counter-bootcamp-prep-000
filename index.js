@@ -2,10 +2,8 @@
 var katzdeli = []
 
 function takeANumber(katzDeli) {
-  
   var place = katzDeli.length
-    //var msg = ("Welcome, $[name].  You are number $[place] in line.")
-    var msg = ("Welcome, " + name + ". You are number " + place + " in line.")
+  var msg = ( "You are " + number + ".")
    return msg
     //return {"Welcome, " + name + ". You are number " + place + "in line."}
 }
