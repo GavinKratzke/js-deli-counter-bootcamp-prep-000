@@ -22,4 +22,5 @@ function nowServing(katzDeliLine) {
       if (!katzDeliLine.length) {
         return "The line is currently empty."
       }
+  for (i = 0; )
     }
