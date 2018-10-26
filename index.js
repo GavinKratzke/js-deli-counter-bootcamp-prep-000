@@ -2,7 +2,7 @@
 var katzdeli = []
 
 function takeANumber(katzDeli) {
-  var number = katzDeli.length
+  var number = katzDeli.length + 1
   var msg = ( "You are " + number + ".")
     katzdeli.push(number)
    return msg
