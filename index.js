@@ -30,7 +30,6 @@ function currentLine(katzDeliLine) {
 }
 return 'The line is currently: ' + inline.join(',');
 
-=======
   var current = "The line is currently: " +  + "."
   var inline = []
 
